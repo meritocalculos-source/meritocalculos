@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://meritocalculos.com.br/sitemap.xml
