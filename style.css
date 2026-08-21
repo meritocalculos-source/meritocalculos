@@ -146,3 +146,18 @@ footer{padding:28px 0;background:#04101a;border-top:1px solid rgba(255,255,255,.
   .section{padding:72px 0}
   .cards{grid-template-columns:1fr}
 }
+
+.section-intro {
+  max-width: 850px;
+  margin: 20px auto 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.75;
+}
+.pjecalc-card {
+  border-color: rgba(201,151,66,.48);
+  background: linear-gradient(145deg, rgba(201,151,66,.08), rgba(255,255,255,.025));
+}
+.pjecalc-card h3 {
+  color: var(--gold2);
+}
