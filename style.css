@@ -161,3 +161,42 @@ footer{padding:28px 0;background:#04101a;border-top:1px solid rgba(255,255,255,.
 .pjecalc-card h3 {
   color: var(--gold2);
 }
+
+/* Página PJe-Calc */
+.subhero{
+  min-height:560px;
+  display:flex;
+  align-items:center;
+  background:
+    linear-gradient(90deg,rgba(3,12,21,.98) 0%,rgba(3,12,21,.92) 42%,rgba(3,12,21,.52) 68%,rgba(3,12,21,.20) 100%),
+    url('hero-office.png') right center/cover no-repeat;
+}
+.subhero-grid{width:100%}
+.subhero h1{
+  font-family:"Cormorant Garamond",serif;
+  font-size:clamp(50px,6vw,76px);
+  line-height:1.02;
+  color:var(--cream);
+  margin:0 0 22px;
+  max-width:760px;
+}
+.subhero h1 span{color:var(--gold2)}
+.subhero-lead{max-width:700px;color:#eef2f5;font-size:19px;line-height:1.75;margin-bottom:24px}
+.subhero-badges{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.subhero-badges span{border:1px solid rgba(201,151,66,.42);color:var(--gold2);padding:8px 12px;font-size:12px;border-radius:999px;background:rgba(7,19,31,.42)}
+.card-link{margin-top:18px!important}
+.card-link a{color:var(--gold2);font-weight:700}
+.card-link a:hover{text-decoration:underline}
+.pjecalc-audience{background:#0a1826;border-top:1px solid rgba(201,151,66,.16)}
+.nav a[aria-current="page"]{color:var(--gold2)}
+@media(max-width:620px){
+  .subhero{
+    min-height:auto;
+    background:
+      linear-gradient(180deg,rgba(3,12,21,.88),rgba(3,12,21,.97)),
+      url('hero-office.png') center/cover no-repeat;
+  }
+  .subhero-grid{padding:74px 0}
+  .subhero h1{font-size:48px}
+  .subhero-lead{font-size:17px}
+}
